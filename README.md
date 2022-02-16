@@ -17,9 +17,10 @@ Here, we only consider the field FILTER_PASS from all 4 VCF files. An outer join
 Results:
 ========
 
-|Dataset|F1|Precision|Recall|
-|real1|0.78|0.72|0.83|
-|real2_part1|0.71|0.64|0.80|
+|Dataset|F1  |Precision|Recall|
+|-------|----|---------|------|
+|real1  |0.78|0.72     |0.83  |
+|real2_part1|0.71|0.64|0.80   |
 |syn1|0.92|0.87|0.97|
 |syn2|0.93|0.88|0.97|
 |syn3|0.70|0.56|0.93|
