@@ -1,11 +1,12 @@
 # smthcool
-##Probabilistic Graphical Models
+
+Probabilistic Graphical Models
 ================================
 This code branch contains source code that uses a Bayesian Network trained on the FILTER_PASS results of each of the 4 variant callers, to predict if it is an actual mutation or not.
 
 ![plot](./bayesian_network.png)
 
-#### Environment setup
+Environment setup
 ======================
 Ensure Anaconda is installed before running the following commands
 ```
@@ -13,16 +14,16 @@ conda create -f environment.yml
 conda activate cs4220_mp1
 ```
 
-#### Experiment
+Experiment
 ===============
 Ensure the VCF files and the bed files for all the datasets are made available in the dataset/ folder.
 Execute each of the notebooks in the notebooks/ directory to review the results of the experiment on each dataset. `PGM_data_exploration_real2.ipynb` contains code for generating predictions on Real2_part2.
 
-#### Key Considerations
+Key Considerations
 =======================
 Here, we only consider the field FILTER_PASS from all 4 VCF files. An outer join is done over all the VCF files to get the necessary combined dataframe. The rows that have a NaN associated with them in the dataframe are replaced with 0, indicating they are not called by the algorithms.
 
-#### Results
+Results
 ============
 
 |Dataset|F1 |Precision|Recall|
