@@ -14,6 +14,4 @@ Please access the following branches of the repository for the relevant code fil
 
 ### weighted_mutect
 ### rf_all_features
-Importance.ipynb: Code to calculate feature importances
-Classification_v2.ipynb: Code to implement Random Forest algorithms across datasets
 ### pgm
