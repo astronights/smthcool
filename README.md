@@ -1,18 +1,12 @@
-# CS4220 Mini Project 1 Meta Approach For Variant Calling
+# CS4220 Project 2 Pathogen Detection
 
 ## Team smthcool
 - Aishwarya Jayagopal A0228508B
 - Shubhankar Agrawal A0248330L
 - Girija Shenoy A0206074M
 
-## Project Report
-
-<Link>
-
-## Relevant Code
-Please access the following branches of the repository for the relevant code files
-
-
-- weighted_mutect
-- rf_all_features
-- pgm
+## Methods implemented
+- Genus and Species classifier
+- Cluster and Classify
+- Random Forest Feature Importance
+- Neural Network
